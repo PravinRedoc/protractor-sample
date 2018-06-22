@@ -1,0 +1,66 @@
+   at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\praveen-ch\WebstormProjects\automation-protractor\features\step_definitions\CTBM-66-System_Processes_GST_Import.js:4:13)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+
+[19:31:37] E/launcher - BUG: launcher exited with 1 tasks remaining
+
+C:\Users\praveen-ch\WebstormProjects\automation-protractor>protractor conf.js --cucumberOpts.tags=@124
+(node:11756) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+[19:40:28] I/launcher - Running 1 instances of WebDriver
+[19:40:28] I/direct - Using ChromeDriver directly...
+[11392:9004:0622/194032.234:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+
+DevTools listening on ws://127.0.0.1:53095/devtools/browser/25732696-aac2-48bd-a422-b3d4892b909d
+[0622/194037.277:ERROR:gl_surface_egl.cc(844)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0622/194037.291:ERROR:gl_surface_egl.cc(844)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[0622/194037.292:ERROR:gl_initializer_win.cc(232)] GLSurfaceEGL::InitializeOneOff failed.
+[0622/194037.317:ERROR:viz_main_impl.cc(199)] Exiting GPU process due to errors during initialization
+[11392:9004:0622/194039.620:ERROR:gpu_process_transport_factory.cc(1017)] Lost UI shared context.
+[0622/194039.818:ERROR:cmd_buffer_helper.cc(139)] ContextResult::kFatalFailure: CommandBufferHelper::AllocateRingBuffer() failed
+[19:40:41] W/runner - Ignoring unknown extra flags: cucumberOpts. This will be an error in future versions, please use --disableChecks flag to disable the  Protractor CLI flag checks.
+Unhandled rejection Error: Cannot find module './win32-x64-57'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\praveen-ch\WebstormProjects\automation-protractor\node_modules\robot-js\Library\Robot.js:16:15)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\praveen-ch\WebstormProjects\automation-protractor\features\step_definitions\CTBM-66-System_Processes_GST_Import.js:4:13)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+
+[19:40:43] E/launcher - BUG: launcher exited with 1 tasks remaining
+
+C:\Users\praveen-ch\WebstormProjects\automation-protractor>protractor conf.js --cucumberOpts.tags=@124
+(node:12624) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+[19:44:24] I/launcher - Running 1 instances of WebDriver
+[19:44:24] I/direct - Using ChromeDriver directly...
+[12776:996:0622/194427.741:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+
+DevTools listening on ws://127.0.0.1:53156/devtools/browser/cb3e5855-ab16-4845-b190-f73a0ae0c76e
+[0622/194432.309:ERROR:gl_surface_egl.cc(844)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0622/194432.336:ERROR:gl_surface_egl.cc(844)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[0622/194432.342:ERROR:gl_initializer_win.cc(232)] GLSurfaceEGL::InitializeOneOff failed.
+[0622/194432.369:ERROR:viz_main_impl.cc(199)] Exiting GPU process due to errors during initialization
+[12776:996:0622/194433.532:ERROR:gpu_process_transport_factory.cc(1017)] Lost UI shared context.
+[0622/194433.587:ERROR:command_buffer_proxy_impl.cc(133)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[19:44:35] W/runner - Ignoring unknown extra flags: cucumberOpts. This will be an error in future versions, please use --disableChecks flag to disable the  Protractor CLI flag checks.
+@CTBM-14 @1234 @124
+Feature: CTBM-14-User_Views_Tagged_Jobs_Grid_On_Dashboard_Page
+
+  @CTBM-14 @1234 @124
+  Scenario: launch google
+  √ Given open google
+
+
+
